@@ -1,0 +1,90 @@
+/**
+ * @name DiscordOverhaul
+ * @author meow
+ * @version 1.0
+ * @Easy on the eyes and smooth, making the discord experience the best it could be.
+ * @source https://github.com/meow-0/DiscordOverhaul/blob/main/Hardcode.css
+ * @steam id/yawcorrection 
+ * @tag #0003
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;300;400;500;700&display=swap');
+@import url('https://github.com/meow-0/DiscordOverhaul/blob/main/Hardcode.css');
+/* 
+Gider ikke skrive hvad de forskellige ting gør. Slå live edit til og leg med det selv. "images" skal være .png, .jpg eller .jpeg.
+Settings->BETTERDISCORD->Settings->Custom CSS->Live update
+*/
+:root {
+  --main-color: #3383DF;
+  --hover-color: #16477F;
+  --success-color: #256728;
+  --danger-color: #792525;
+  --url-color: #00B0FF;
+  --background-image: url('https://github.com/meow-0/DiscordOverhaul/blob/Ikoner/baggrund.jpg');
+  --background-shading: 100%;
+  --background-position: center;
+  --background-size: cover;
+  --background-repeat: no-repeat;
+  --background-attachment: fixed;
+  --background-brightness: 120%;
+  --background-contrast: 100%;
+  --background-saturation: 100%;
+  --background-grayscale: 0%;
+  --background-invert: 0%;
+  --background-blur: 6px;
+  --background-overlay: rgb(0,0,0,0.27);
+  --user-popout-image: url('https://github.com/meow-0/DiscordOverhaul/blob/Ikoner/2dxaFs9.jpg');
+  --user-popout-position: -100px;
+  --user-popout-size: 1500px;
+  --user-popout-repeat: no-repeat;
+  --user-popout-attachment: scroll;
+  --user-popout-brightness: 100%;
+  --user-popout-contrast: 100%;
+  --user-popout-saturation: 149%;
+  --user-popout-grayscale: 0%;
+  --user-popout-invert: 0%;
+  --user-popout-blur: 6px;
+  --user-modal-image: url('https://github.com/meow-0/DiscordOverhaul/blob/Ikoner/Stq31cJ.jpg');
+  --user-modal-position: center;
+  --user-modal-size: contain;
+  --user-modal-repeat: no-repeat;
+  --user-modal-attachment: fixed;
+  --user-modal-brightness: 150%;
+  --user-modal-contrast: 100%;
+  --user-modal-saturation: 100%;
+  --user-modal-grayscale: 0%;
+  --user-modal-invert: 0%;
+  --user-modal-blur: 10px;
+  --home-icon: url('https://github.com/meow-0/DiscordOverhaul/blob/Ikoner/home.png');
+  --home-position: center;
+  --home-size: 50px;
+  --channel-unread: #FFFFFF;
+  --channel-color: rgb(43,189,255,0.77);
+  --muted-color: rgb(255,255,255,0.36);
+  --online-color: #5FB8FF;
+  --idle-color: #C79500;
+  --dnd-color: #5420AF;
+  --streaming-color: #AB1212;
+  --offline-color: #4D4D4D;
+  --main-font: Comfortaa;
+  --code-font: Encode Sans Expanded;
+  --channels-width: 275px;
+  --members-width: 250px;
+  --backdrop-overlay: rgba(0,0,0,0.8);
+  --backdrop-image: var(--background-image);
+  --backdrop-position: var(--background-position);
+  --backdrop-size: var(--background-size);
+  --backdrop-repeat: var(--background-repeat);
+  --backdrop-attachment: var(--background-attachment);
+  --backdrop-brightness: var(--background-brightness);
+  --backdrop-contrast: var(--background-contrast);
+  --backdrop-saturation: var(--background-saturation);
+  --backdrop-invert: var(--background-invert);
+  --backdrop-grayscale: var(--background-grayscale);
+  --backdrop-sepia: var(--background-sepia);
+  --backdrop-blur: var(--background-blur);
+  --bd-blue: var(--main-color);
+  --bd-blue-hover: var(--hover-color);
+  --bd-blue-active: var(--hover-color);
+}
